@@ -59,9 +59,7 @@ background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1)
 background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
 }
-.carosel {
-	height: 335px;
-}
+
 
 .frontboxes {
 	height: 150px;
@@ -71,6 +69,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', end
 	padding-top: 10px;
 }
 
+img{
+  height: 100%;
+  width: 100%;
+}
+
+.logo{
+  height:50px;
+  width: 100px;
+}
 
 .misvis {
 	color: white;
@@ -92,6 +99,7 @@ border-radius: 15px;
 border-bottom-right-radius: 0px;
 border-bottom-left-radius: 0px;
 }
+
 .footer {
 	background: rgba(212,212,212,1);
 background: -moz-linear-gradient(top, rgba(212,212,212,1) 0%, rgba(205,205,205,0.42) 45%, rgba(204,204,204,0.42) 50%, rgba(194,194,194,0.42) 51%, rgba(237,237,237,0.42) 93%);
@@ -107,6 +115,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d4d4', end
 	border-top-right-radius: 0px ;
 	border-bottom-right-radius: 15px;
 	border-bottom-left-radius: 15px;
+
+  
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
 
 .mis {
